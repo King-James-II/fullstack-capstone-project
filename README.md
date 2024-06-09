@@ -2,12 +2,15 @@
 
 ## Tasks Accomplished:
 
-- Structured landing page content by modifying home.html.
-- Applied CSS styles to the landing page by editing home.css.
-- Ensured the landing page is responsive and visually appealing on all devices.
+- Fetch and display gifts on the MainPage.js component.
+- Provide navigation to Home and Gifts from the Navbar.js.
+
 
 ## Previous Tasks Accomplished:
 
+- Structured landing page content by modifying home.html.
+- Applied CSS styles to the landing page by editing home.css.
+- Ensured the landing page is responsive and visually appealing on all devices.
 - Used the `natural` library to perform sentiment analysis on English sentences.
 - Implemented an Express server with a `/sentiment` endpoint.
 - Developed a search endpoint in `searchRoutes.js` to filter gifts based on different criteria.
