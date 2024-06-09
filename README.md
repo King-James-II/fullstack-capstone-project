@@ -1,4 +1,4 @@
-# Gift-Link Full-Stack Application v.2.2
+# Gift-Link Full-Stack Application v.3.0
 
 ## Tasks Accomplished:
 
