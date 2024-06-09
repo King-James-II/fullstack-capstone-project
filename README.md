@@ -1,15 +1,18 @@
-# Gift-Link Full-Stack Application v.3.1.1
+# Gift-Link Full-Stack Application v.3.2
 
 ## Tasks Accomplished:
+
+- Implemented DetailsPage.js component to fetch and display detailed information about a gift.
+- Styled the Details Page using CSS in DetailsPage.css.
+
+
+
+## Previous Tasks Accomplished:
 
 - Created RegisterPage and LoginPage components for user registration and login functionalities.
 - Managed form input states using the useState hook.
 - Implemented handleRegister() and handleLogin() functions for form submission events.
 - Utilized react-router-dom for navigation between registration and login pages.
-
-
-## Previous Tasks Accomplished:
-
 - Fetch and display gifts on the MainPage.js component.
 - Provide navigation to Home and Gifts from the Navbar.js.
 - Structured landing page content by modifying home.html.
