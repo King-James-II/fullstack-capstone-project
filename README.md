@@ -1,14 +1,19 @@
-# Gift-Link Full-Stack Application v.3.4
+# Gift-Link Full-Stack Application v.3.5
 
 ## Tasks Accomplished:
 
-- Set up Continuous Integration and Continuous Delivery with GitHub Actions.
-- Added linting service to automatically check for syntax errors and enforce coding guidelines.
-- Fixed existing linting errors and pushed code to the repository.
+- Deployed MongoDB on Kubernetes.
+- Configured environment files for backend and frontend connections.
+- Containerized and deployed backend on Kubernetes.
+- Built, containerized, and deployed frontend on IBM Cloud Code Engine.
+- Ensured system functionality.
 
 
 ## Previous Tasks Accomplished:
 
+- Set up Continuous Integration and Continuous Delivery with GitHub Actions.
+- Added linting service to automatically check for syntax errors and enforce coding guidelines.
+- Fixed existing linting errors and pushed code to the repository.
  Used the /api/auth/update endpoint to handle user profile requests to update user profile information.
 - Integrated and handled authorization by including a Bearer token in the API request headers, enhancing security during profile updates.
 - Handled asynchronous API responses, interpreting and processing the JSON data returned from the profile endpoint.
