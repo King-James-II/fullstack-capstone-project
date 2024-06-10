@@ -2,15 +2,17 @@
 
 ## Tasks Accomplished:
 
-- Implemented SearchPage.js component to enable searching for gifts.
-- Styled the search page using CSS in SearchPage.css.
-- Added /app/search route to App.js.
-- Added Search link to the navigation bar in NavBar.js.
-
+- Created an endpoint to register a user in the database (/register) in authRoutes.js.
+- Configured the api/auth route in the Express application (app.js) to use the routes defined in authRoutes.js.
+- Handled errors and structured responses in a server environment.
 
 
 ## Previous Tasks Accomplished:
 
+- Implemented SearchPage.js component to enable searching for gifts.
+- Styled the search page using CSS in SearchPage.css.
+- Added /app/search route to App.js.
+- Added Search link to the navigation bar in NavBar.js.
 - Implemented DetailsPage.js component to fetch and display detailed information about a gift.
 - Styled the Details Page using CSS in DetailsPage.css.
 - Created RegisterPage and LoginPage components for user registration and login functionalities.
