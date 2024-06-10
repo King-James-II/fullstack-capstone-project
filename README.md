@@ -1,14 +1,19 @@
-# Gift-Link Full-Stack Application v.3.3
+# Gift-Link Full-Stack Application v.3.3.1
 
 ## Tasks Accomplished:
 
-- Created an endpoint to register a user in the database (/register) in authRoutes.js.
-- Configured the api/auth route in the Express application (app.js) to use the routes defined in authRoutes.js.
-- Handled errors and structured responses in a server environment.
+- Enhanced client-side form handling by using the states to obtain user input for first name, last name, email, and password in the handleRegister function.
+- Integrated the call to the backend API in handleRegister.
+- Handled asynchronous API responses, specifically interpreting and processing the JSON data returned from the registration endpoint.
+- Handled authorization by extracting the Bearer token in the API response and storing it in the session for enhancing security.
+- Provided appropriate error messages for registration failure.
 
 
 ## Previous Tasks Accomplished:
 
+- Created an endpoint to register a user in the database (/register) in authRoutes.js.
+- Configured the api/auth route in the Express application (app.js) to use the routes defined in authRoutes.js.
+- Handled errors and structured responses in a server environment.
 - Implemented SearchPage.js component to enable searching for gifts.
 - Styled the search page using CSS in SearchPage.css.
 - Added /app/search route to App.js.
