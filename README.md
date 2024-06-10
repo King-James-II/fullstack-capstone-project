@@ -1,14 +1,18 @@
-# Gift-Link Full-Stack Application v.3.3.4
+# Gift-Link Full-Stack Application v.3.3.5
 
 ## Tasks Accomplished:
 
-- Created an endpoint to update user credentials in the database (/update) in authRoutes.js.
-- Configured the api/auth route in the Express application (app.js) to use the routes defined in authRoutes.js.
-- Handled errors and structured responses in a server environment.
+ Used the /api/auth/update endpoint to handle user profile requests to update user profile information.
+- Integrated and handled authorization by including a Bearer token in the API request headers, enhancing security during profile updates.
+- Handled asynchronous API responses, interpreting and processing the JSON data returned from the profile endpoint.
 
 
 ## Previous Tasks Accomplished:
 
+- Enhanced client-side form handling by using a React state to manage user input for email and password.
+- Created an endpoint to update user credentials in the database (/update) in authRoutes.js.
+- Configured the api/auth route in the Express application (app.js) to use the routes defined in authRoutes.js.
+- Handled errors and structured responses in a server environment.
 - Developed and implemented the /api/auth/login endpoint to handle user login requests.
 - Integrated and handled authorization by including a bearer token in the API request headers, enhancing security during user login.
 - Handled asynchronous API responses, specifically interpreting and processing the JSON data returned from the login endpoint.
